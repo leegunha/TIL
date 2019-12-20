@@ -13,6 +13,6 @@ price = prices.split(";")
 for i in range(0,len(price)):
     price[i]= int(price[i])
 
-a = sorted(price)
+a = sorted(price)gist
 for i in range(0,len(price)):    
     print(a[len(a)-i-1])

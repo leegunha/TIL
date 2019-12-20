@@ -12,7 +12,7 @@ score = {
 # 아래에 코드를 작성해 주세요.
 print('==== Q1 ====')
 avg = (int(score.get('수학'))+int(score.get('수학'))+int(score.get('음악')))/3.0
-print("평균은 : ",avg)
+print("평균은 : ", avg)
 
 
 

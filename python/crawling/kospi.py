@@ -7,7 +7,7 @@ soup = bs(response, 'html.parser')
 kospi = soup.select_one("#KOSPI_now")
 # . > class
 # # > id
-print(kospi)
+print(kospi.text)
 
 
 
